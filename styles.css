@@ -48,17 +48,8 @@ section {
   display: flex;
   flex-wrap: wrap; 
   justify-content: center; 
-  /* background-color: var(--bgcard-one); */
   max-width: 920px;
   height: 500px;
-  /* margin-top: 129px;
-  margin-bottom: 129px;
-  margin-left: auto;
-  margin-right: auto; */
-  /* overflow: clip; */
-  /* padding-left: 10px;
-    padding-right: 10px; */
-  /* 10 рх щоб не прилипала картинка чи текст до країв */
 }
 
 article {
