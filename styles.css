@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #ffffff;
+  --h-one: #f2f2f2;
+  --background-button: #f2f2f2;
+  --bgcard-one: #e28625;
+  --bgcard-two: #006971;
+  --bgcard-three: #004140;
+  --font-family: "Big Shoulders Display";
+}
+
+html, body {
+  height: 100vh;
+} 
+
+body,
+h1,
+p {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  /* max-width: 100%;
+  display: block; */
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  /* background-color: var(--bgcard-one); */
+  max-width: 920px;
+  height: 500px;
+  /* margin-top: 129px;
+  margin-bottom: 129px;
+  margin-left: auto;
+  margin-right: auto; */
+  /* overflow: clip; */
+  /* padding-left: 10px;
+    padding-right: 10px; */
+  /* 10 рх щоб не прилипала картинка чи текст до країв */
+}
+
+article {
+  max-width: 305px;
+  height: 500px;
+  padding: 48px;
+}
+
+.card-one {
+  background-color: var(--bgcard-one);
+  border-radius: 8px 0px 0px 8px;
+}
+
+.card-two {
+  background-color: var(--bgcard-two);
+}
+
+.card-three {
+  background-color: var(--bgcard-three);
+  border-radius: 0px 8px 8px 0px;
+}
+
+/* CIRCLES */
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:#0003;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+/* =========== CARS ============================= */
+.car-one {
+  width: 44px;
+  height: 20px;
+}
+
+.car-two {
+  width: 44px;
+  height: 24px;
+}
+
+.car-three {
+  width: 44px;
+  height: 18px;
+}
+
+.cars {
+  position: absolute;
+  top: 50%;
+  left: 104%;
+  transform: translate(-50%, -50%);
+}
+
+article h1 {
+  margin-bottom: 25px;
+  width: 99px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--h-one);
+}
+
+article p {
+  margin-bottom: 83px;
+  width: 212px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+/* ===================== BUTTONS ===========================  */
+/* ============== main properties for <a> =================== */
+article a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  letter-spacing: 0.5px; 
+  transition: background-color 0.5s ease;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-bottom: 48px; */
+  /* font-size: 15px;
+  line-height: 25px; */
+  /* color: var(--bgcard-one); */
+  /* padding-top: 11px; */
+  /* text-align: center; */
+}
+/* ============================================================= */
+
+.learn-button {
+  background-color: var(--background-button);
+  cursor: pointer;
+}
+/* =============== text-color on the button ================== */
+.one {
+  color: var(--bgcard-one);
+}
+
+.two {
+  color: var(--bgcard-two);
+}
+
+.three {
+  color: var(--bgcard-three);
+}
+/* ============================================================ */
+
+/* ================= main properties for hover-buttons =================== */
+.learn-button:hover {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  color: var(--text-color);
+  transition: background-color 0.5s ease;
+}
+/* ================================================================= */
+
+.one:hover {
+  background-color: var(--bgcard-one);
+}
+
+.two:hover {
+  background-color: var(--bgcard-two);
+}
+
+.three:hover {
+  background-color: var(--bgcard-three);
+}
+
+/* ====================== hover for cards =========================== */
+
+/* .card-one:hover {
+  background-color: var(--bgcard-one);
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.card-two:hover {
+  background-color: var(--bgcard-two);
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.card-three:hover {
+  background-color: var(--bgcard-three);
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  transition: background-color 0.5s ease;
+} */
+ 
